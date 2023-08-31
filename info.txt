@@ -1,0 +1,37 @@
+* Shah Alam zoho info: *
+===========================================================================================
+for Client Test (index.php)
+--------------------------------
+Client ID:
+1000.Q745HE9BCQUQZ8G4MEUWJCMR5GJ6IV
+
+Client Secret:
+e8b35fa2b5453e7214b2811205878a90719288693e
+===========================================================================================
+
+for Client Shah Alam (test.php)
+----------------------------------
+Client ID:
+1000.NYG0IKVF2FZ1URCX65JOMEN6VEB3VN
+
+Client Secret:
+3fd49aab177fdd4919ed10de4c3fb62f915cba84a3
+======================================================================================================
+
+https://accounts.zoho.in/oauth/v2/auth?scope=ZohoCRM.users.ALL&client_id=1000.NYG0IKVF2FZ1URCX65JOMEN6VEB3VN&response_type=code&access_type=offline&redirect_uri=http://localhost/zoho/test.php
+======================================================================================================
+
+{
+    "access_token": "1000.6739405818c55069af9bf1beac04dfd9.237f3914d07718b66cff87ff9110cf5b",
+    "refresh_token": "1000.fca09298093c7e3dec1239655cd5fb22.9c06517b7d796207a735e2a5e8831d5f",
+    "scope": "ZohoCRM.modules.leads.ALL ZohoCRM.modules.deals.ALL ZohoCRM.settings.ALL",
+    "api_domain": "https://www.zohoapis.in",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+======================================================================================================
+To find code:
+
+https://accounts.zoho.com/oauth/v2/auth?scope=ZohoCRM.modules.leads.ALL,ZohoCRM.modules.deals.ALL,ZohoCRM.settings.ALL&client_id={client_id}&response_type=code&access_type=offline&redirect_uri={redirect_uri}
+
+======================================================================================================
